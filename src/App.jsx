@@ -1,8 +1,33 @@
-const App = () => {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+const App = () => (
+  <main className=" relative">
+    Nav
+    <section className=" xl:padding-1 wide:padding-r padding-b">
+      hero
+    </section>
+    <section className="padding">
+      Popular Products
+
+    </section>
+    <section className="padding">
+      Super Quelity
+
+    </section>
+    <section className="padding-x py-10">
+      Services
+
+    </section>
+    <section className="padding">
+      Spacial Offers
+    </section>
+    <section className=" bg-pale-blue padding">
+      Customer Reviews
+    </section>
+    <section className="padding-x sm:py-32 py-16 w-full">
+      Subscribe
+    </section>
+    <section className=" bg-black padding-x padding-t pb-8">
+      Fotter
+    </section>
+  </main>
+)
 export default App
